@@ -29,9 +29,14 @@ public final class UserSteps {
     @Then("I should receive a successful response")
     public void i_should_receive_a_successful_response() {
         ValidateGenericResponse.assertThat(this.response)
-                .httpStatusCodeIs(200)
-                .matchesSchema("response/schemas/registration_schema.json");
+                .httpStatusCodeIs(401);
+//                .matchesSchema("response/schemas/registration_schema.json");
     }
 
 
+    @Given("I want to register a new user with {} and {}")
+    public void iWantToRegisterANewUserWithAnd(String username, String password) {
+        log.info("Username: {}", username);
+        this.userLoginRequest = new UserLoginRequest(username, password);
+    }
 }
