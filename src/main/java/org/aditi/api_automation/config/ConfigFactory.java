@@ -24,9 +24,14 @@ public interface ConfigFactory {
     String getBaseUrl();
     @ConfigProperty("BASE_API_PATH")
     String getBaseApiPath();
-    @ConfigProperty("REGISTER_PATH")
-    String getRegistrationPath();
 
+    /** REQRES */
+     @ConfigProperty("REQRES_BASE_URL")
+     String getReqResBaseUrl();
+     @ConfigProperty("REQRES_BASE_API_PATH")
+     String getReqResBaseApiPath();
+     @ConfigProperty("REGISTER_PATH")
+     String getRegistrationPath();
 
 
     /** API Paths */

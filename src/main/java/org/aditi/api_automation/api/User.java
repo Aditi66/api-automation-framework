@@ -10,10 +10,15 @@ import java.util.function.Function;
 import static io.restassured.RestAssured.given;
 
 public class User {
+
+    private User(){}
+
     private static final Function<UserLoginRequest, Response> userLoginFunction = userLoginRequest -> {
         return given()
                 .spec(AppRequests.getRequestFactory()
                         .loginRequest(userLoginRequest.getUsername(),userLoginRequest.getPassword()).build())
+                .baseUri(AppConfig.getConfig().getReqResBaseUrl())
+                .basePath(AppConfig.getConfig().getReqResBaseApiPath())
                 .log().ifValidationFails()
                 .when()
                 .post(AppConfig.getConfig().getRegistrationPath())
