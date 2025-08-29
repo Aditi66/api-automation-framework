@@ -1,38 +1,14 @@
-# API Automation Framework
+# API Automation Framework Documentation
 
-A comprehensive framework for API testing built with REST Assured, Cucumber, and TestNG.
+Welcome to the API Automation Framework! This comprehensive guide provides an overview of the framework and quick reference information.
 
-## 📚 Documentation
+## 📋 Table of Contents
 
-📖 **Live Documentation**: [https://aditi66.github.io/api-automation-framework/](https://aditi66.github.io/api-automation-framework/)
-
-The documentation is automatically deployed to GitHub Pages and includes:
-- Getting Started Guide
-- API Reference
-- Best Practices
-- Troubleshooting Guide
-- Interactive Examples
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Java 21 or higher
-- Maven 3.6 or higher
-- Git
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/Aditi66/api-automation-framework.git
-cd api-automation-framework
-
-# Build the project
-mvn clean install
-
-# Run tests
-mvn test
-```
+1. [Framework Overview](#framework-overview)
+2. [Quick Start](#quick-start)
+3. [Project Structure](#project-structure)
+4. [Key Concepts](#key-concepts)
+5. [Documentation Guide](#documentation-guide)
 
 ## 🏗️ Framework Overview
 
@@ -54,6 +30,28 @@ The API Automation Framework is built with modern Java technologies and follows 
 - **AssertJ 3.27.0**: Fluent assertion library
 - **Lombok**: Boilerplate code reduction
 - **Jackson**: JSON processing
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Java 21 or higher
+- Maven 3.6 or higher
+- Git
+- IDE (IntelliJ IDEA or Eclipse recommended)
+
+### Installation & First Test
+
+```bash
+# Clone and build
+git clone https://github.com/Aditi66/api-automation-framework.git
+cd api-automation-framework
+mvn clean install
+
+# Run tests
+mvn test
+```
+
+**For detailed setup instructions, see the [Getting Started Guide](GETTING_STARTED.md).**
 
 ## 📁 Project Structure
 
@@ -143,15 +141,22 @@ ValidateGenericResponse.assertThat(response)
     .containsValue("success");
 ```
 
-## 📚 Documentation
+## 📚 Documentation Guide
 
-Comprehensive documentation is available in the `docs/` directory:
+### For New Users
+1. **[Getting Started Guide](GETTING_STARTED.md)** - Complete setup and first test
+2. **[Best Practices Guide](BEST_PRACTICES.md)** - Coding standards and patterns
+3. **[Troubleshooting Guide](TROUBLESHOOTING.md)** - Common issues and solutions
 
-- **[Documentation Index](docs/INDEX.md)** - Start here to find what you need
-- **[Getting Started Guide](docs/GETTING_STARTED.md)** - Step-by-step setup and first test
-- **[API Reference](docs/API_REFERENCE.md)** - Complete class and method documentation
-- **[Best Practices Guide](docs/BEST_PRACTICES.md)** - Coding standards and patterns
-- **[Troubleshooting Guide](docs/TROUBLESHOOTING.md)** - Common issues and solutions
+### For Developers
+1. **[API Reference](API_REFERENCE.md)** - Complete class and method documentation
+2. **[Best Practices Guide](BEST_PRACTICES.md)** - Advanced patterns and techniques
+3. **[Troubleshooting Guide](TROUBLESHOOTING.md)** - Debugging and optimization
+
+### Quick Reference
+- **[Documentation Index](INDEX.md)** - Find what you need quickly
+- **[API Reference](API_REFERENCE.md)** - All classes and methods
+- **[Configuration Guide](GETTING_STARTED.md#step-7-configuration-management)** - Environment setup
 
 ## 🎯 Common Use Cases
 
@@ -181,17 +186,17 @@ Comprehensive documentation is available in the `docs/` directory:
 - **Tests not found**: Check feature file location and step definition package
 
 ### Getting Help
-1. Check the [Troubleshooting Guide](docs/TROUBLESHOOTING.md)
-2. Review [Best Practices](docs/BEST_PRACTICES.md)
+1. Check the [Troubleshooting Guide](TROUBLESHOOTING.md)
+2. Review [Best Practices](BEST_PRACTICES.md)
 3. Search existing [GitHub Issues](https://github.com/Aditi66/api-automation-framework/issues)
 4. Create a new issue with detailed information
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please see our [Contributing Guide](docs/INDEX.md#contributing-to-documentation) for details.
+Contributions are welcome! Please see our [Contributing Guide](INDEX.md#contributing-to-documentation) for details.
 
 ### Contributing to Documentation
-We welcome contributions to improve the documentation! Please see our [Documentation Contributing Guide](docs/INDEX.md#contributing-to-documentation) for details.
+We welcome contributions to improve the documentation! Please see our [Documentation Contributing Guide](INDEX.md#contributing-to-documentation) for details.
 
 ## 📄 License
 
@@ -201,4 +206,4 @@ This project is licensed under the MIT License.
 
 **Happy Testing! 🚀**
 
-For detailed information, start with the [Documentation Index](docs/INDEX.md) to find what you need.
+For detailed information, start with the [Documentation Index](INDEX.md) to find what you need.
