@@ -69,9 +69,23 @@ mvn test
 - Business logic validation
 
 
+## 📚 Documentation
+
+Comprehensive documentation is available in the `docs/` directory:
+
+- **[Documentation Index](docs/INDEX.md)** - Start here to find what you need
+- **[Getting Started Guide](docs/GETTING_STARTED.md)** - Step-by-step setup and first test
+- **[API Reference](docs/API_REFERENCE.md)** - Complete class and method documentation
+- **[Best Practices Guide](docs/BEST_PRACTICES.md)** - Coding standards and patterns
+- **[Troubleshooting Guide](docs/TROUBLESHOOTING.md)** - Common issues and solutions
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request.
+
+### Contributing to Documentation
+
+We welcome contributions to improve the documentation! Please see our [Documentation Contributing Guide](docs/INDEX.md#contributing-to-documentation) for details.
 
 ## License
 
