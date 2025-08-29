@@ -1,12 +1,12 @@
 
 Feature: User
 
-  Scenario: User Registration
+  Scenario: Single User Registration
     Given I want to register a new user
     When I send a POST request to register api
     Then I should receive a successful response
 
-  Scenario Outline: User Registration
+  Scenario Outline: Multiple User Registration
     Given I want to register a new user with <username> and <password>
     When I send a POST request to register api
     Then I should receive a successful response
