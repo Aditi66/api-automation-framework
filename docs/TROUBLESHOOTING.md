@@ -1,18 +1,6 @@
-# Troubleshooting Guide
+# Troubleshooting
 
 This guide helps you identify and resolve common issues when using the API Automation Framework.
-
-## Table of Contents
-
-1. [Common Error Messages](#common-error-messages)
-2. [Configuration Issues](#configuration-issues)
-3. [Test Execution Problems](#test-execution-problems)
-4. [Request/Response Issues](#requestresponse-issues)
-5. [Validation Problems](#validation-problems)
-6. [Performance Issues](#performance-issues)
-7. [Environment-Specific Issues](#environment-specific-issues)
-8. [Debugging Techniques](#debugging-techniques)
-9. [Getting Help](#getting-help)
 
 ## Common Error Messages
 
