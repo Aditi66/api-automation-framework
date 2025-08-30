@@ -1,6 +1,8 @@
 # API Reference
 
-This document provides a comprehensive reference for all classes, methods, and annotations available in the API Automation Framework.
+This document provides a comprehensive reference for all classes, methods, and annotations available in the current API Automation Framework.
+
+> **Note:** For future enhancements and roadmap, see [Framework Analysis & Enhancement Roadmap](FRAMEWORK_ANALYSIS.md) and [Technical Enhancements Guide](TECHNICAL_ENHANCEMENTS.md).
 
 ## Table of Contents
 
@@ -587,4 +589,4 @@ RequestSpecBuilder spec = AppRequests.getRequestFactory()
 
 ---
 
-This API reference provides comprehensive information about all the classes, methods, and annotations available in the framework. For more detailed examples and usage patterns, refer to the main documentation and getting started guide.
+This API reference provides comprehensive information about all the classes, methods, and annotations available in the current framework. For future enhancements and roadmap, refer to the [Framework Analysis](FRAMEWORK_ANALYSIS.md) and [Technical Enhancements](TECHNICAL_ENHANCEMENTS.md) documents.
